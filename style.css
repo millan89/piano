@@ -1,0 +1,19 @@
+body {
+    background-color: #f1f1f1;
+}
+
+#piano {
+    display: flex;
+}
+
+#piano .key {
+    min-width: 40px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: inherit;
+    align-content: initial;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 12px 6px;
+}
